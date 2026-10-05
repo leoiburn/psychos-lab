@@ -1,5 +1,7 @@
 # Hardware / Nodes
 
+**In simple words:** this is the list of every computer in my lab and its job.
+
 | Node | Hardware | OS | Role |
 |------|----------|----|------|
 | coldeth | Raspberry Pi 4 | Kali Linux | Small 3B AI models + cybersecurity, WiFi→Ethernet router for the server rack, Bluetooth keyboard → USB-C HID bridge |

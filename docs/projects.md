@@ -1,5 +1,7 @@
 # Projects running on the lab
 
+**In simple words:** these are the projects that run on my lab machines.
+
 - **Amethyst web** — consultancy site with gateway failover (fireth → coldeth → laptop) driven by watchdogs + systemd timers; leads mirrored and deduped across all three nodes; hardened Python server against floods.
 - **AI cyber range** — round-based purple-team duel: coldeth (Kali) attacks, fireth defends with an AI agent, laptop referees and hosts the LLM.
 - **bizscout** — small agents on the Pis that scout small-business public info from OpenStreetMap.

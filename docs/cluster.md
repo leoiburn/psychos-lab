@@ -1,5 +1,7 @@
 # GPU Cluster (separate project)
 
+**In simple words:** five gaming-style PCs with graphics cards, connected together so they can act like **one big AI computer**. One big AI model gets split into pieces, and each PC runs one piece.
+
 Five Fedora 44 machines on a dedicated ethernet switch, run as one AI cluster. Separate from the homelab, but documented here.
 
 | Node | GPU | Role |

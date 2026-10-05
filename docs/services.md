@@ -1,5 +1,7 @@
 # Services
 
+**In simple words:** what each machine actually does day to day.
+
 ## T320 — NAS
 Proxmox host doubling as my NAS: central storage for my files, plus a Docker VM.
 The Proxmox web UI and file shares are LAN-only, never forwarded.

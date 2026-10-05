@@ -1,5 +1,7 @@
 # Network
 
+**In simple words:** this shows how my computers are connected. The main rule: my home network has **no open doors** to the internet. People reach my stuff through a rented server that passes traffic in through a private, locked tunnel.
+
 ```
                 Internet
                    │
