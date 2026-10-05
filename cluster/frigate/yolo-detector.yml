@@ -1,0 +1,14 @@
+# Frigate detector block: YOLOv9-tiny on OpenVINO (CPU), replaces the default SSDLite model.
+# Paste between "# BEGIN DETECTOR" / "# END DETECTOR" in Frigate's config.yml.
+detectors:
+  ov:
+    type: openvino
+    device: CPU          # GPU once the card is passed through to the VM
+model:
+  model_type: yolo-generic
+  width: 320
+  height: 320
+  input_tensor: nchw
+  input_dtype: float
+  path: /config/model_cache/yolov9-t-320.onnx
+  labelmap_path: /labelmap/coco-80.txt
