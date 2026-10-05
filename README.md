@@ -9,6 +9,7 @@ A mix of single-board computers, a Proxmox server, a NUC and a VPS used for self
 - [Hardware / nodes](docs/hardware.md)
 - [Services](docs/services.md)
 - [Network layout](docs/network.md)
+- [GPU cluster (node1-5)](docs/cluster.md) + [node5 camera with YOLO](cluster/frigate/)
 - [Projects](docs/projects.md)
 
 ## Related repos
