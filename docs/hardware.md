@@ -2,12 +2,11 @@
 
 | Node | Hardware | OS | Role |
 |------|----------|----|------|
-| coldeth | Raspberry Pi 4 | Kali Linux | Attacker box, WiFi→Ethernet router for the server rack, Bluetooth keyboard → USB-C HID bridge |
-| fireth | Orange Pi 4 Pro | Linux (headless) | Defender box, primary web gateway |
-| T320 | Dell PowerEdge T320 | Proxmox VE 9 | Hypervisor, Docker VM |
+| coldeth | Raspberry Pi 4 | Kali Linux | Small 3B AI models + cybersecurity, WiFi→Ethernet router for the server rack, Bluetooth keyboard → USB-C HID bridge |
+| fireth | Orange Pi 4 Pro | Linux (headless) | YOLO vision models (visual AI), web gateway |
+| T320 | Dell PowerEdge T320 | Proxmox VE 9 | Hypervisor, NAS (file storage), Docker VM |
 | knight | Dell OptiPlex 7060 | Linux | Local LLM (Ollama) + modded Minecraft server |
-| node1 | Workstation, 4 GPUs | Fedora 44 | Distributed LLM inference (llama.cpp RPC) |
-| node5 | Server | Proxmox | Hosts `camvm` (Frigate AI security camera) |
+| penthos | Intel NUC | Parrot OS | Pentesting box: attacks my own projects, hosts abliterated AI models |
 | VPS | Cloud VPS | Linux | Public entry point only (reverse tunnel) |
 | laptop | Ubuntu laptop | Linux | Control plane, referee, last-resort gateway |
 
